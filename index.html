@@ -83,7 +83,7 @@
 
 
 
-<div id="our_story" class="container-fluid">
+<div id="our_story" class="container-fluid wrap">
 	<div class="row">
 		<div class="col-md-4 col-xs-offset-1">
 			<h1>Our Story</h1>
@@ -100,7 +100,7 @@
 </div>
 
 <!-- Review Section starts -->
-<div id="review" class="container-fluid">
+<div id="review" class="container-fluid wrap">
 	<div class="row text-center">
 		<div class="col-sm-8 center">
 			<h1>Fresno Bee</h1>
@@ -225,22 +225,58 @@
 	<div class="container-fluid">
 		<div class="col-sm-8 col-sm-offset-2">
 			<div class="row">
-				<col-sm-12>
+				<div class="col-sm-12">
 					<h1 class="text-uppercase">Contact Us</h1>
-				</col-sm-12>
+				</div>
 			</div>
 			<div class="row">
 				<div class="col-sm-12">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam corrupti ipsam quam est accusamus error!</p>
 				</div>
 			</div>
-			<div class="row contact_bottom">
-				<div class="col-sm-6">
-					<div class="col-sm-12 contact_form">
-						<!-- Will Continue from this point  -->
+
+			<div class="row">
+				<div class="contact_bottom">
+					<div class="col-sm-6">
+						<div class="col-sm-12 contact_form">
+							<form action="">
+								<div class="form-group">
+									<label for="Name">Name<span>*</span></label>
+									<input type="text" class="form-control" placeholder="Type your...">
+								</div>
+								<div class="form-group">
+									<label for="Email">Email<span>*</span></label>
+									<input type="text" class="form-control" placeholder="Type your...">
+								</div>
+								<div class="form-group">
+									<label for="Subject">Subject<span>*</span></label>
+									<input type="text" class="form-control" placeholder="Type your...">
+								</div>
+								<div class="form-group">
+									<label for="Message">Message</label>
+									<textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Message here..."></textarea>
+								</div>
+								<div class="form-group">
+									<label for="robot check"></label>
+										<input type="checkbox"> I'm not a robot</input>
+								</div>
+								<button type="submit" class="btn btn-default center-block">Send Message</button>
+								<p class="text-center" id="contact_fine_print">All fields marked <span><!--asterisk goes here--></span> are mandatory.</p>
+							</form>
+						</div>
+					</div>
+					<div class="col-sm-5 col-sm-offset-1">
+						<address>
+							<strong class="text-uppercase">Restaurante</strong><br>
+							123 Fulton St.<br>
+							Fresno, Ca 93728<br>
+							P: (123)456-7890</br>
+						</address>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.086786670913!2d-119.80283968471167!3d36.74448787996015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809460afd7accfa9%3A0x47d7876b42d0772f!2s123+N+Fulton+St%2C+Fresno%2C+CA+93701!5e0!3m2!1sen!2sus!4v1550118561617" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
 				</div>
 			</div>
+
 		</div>
 	</div>
 </div>
